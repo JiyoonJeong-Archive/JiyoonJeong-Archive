@@ -3,7 +3,7 @@
 #M: added from internet
 include:
  - _javascript
- #- _site
+ - _site
 
 # Import the theme
 theme: jekyll-theme-chirpy
@@ -23,7 +23,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Jiyoon's Archive # the main title
+title: Jiyoon Jeong # the main title
 
 tagline: Viva La Vida # it will display as the sub-title
 
@@ -46,10 +46,10 @@ social:
   email: jiyoonjeong.psyc@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
+    #- https://twitter.com/username # change to your twitter homepage
     - https://JiyoonJeong-Archive.github.io # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+    - https://www.facebook.com/jeongjiyoon357
     # - https://www.linkedin.com/in/username
 
 google_site_verification: # fill in to your verification string
@@ -81,7 +81,8 @@ theme_mode: light # [light|dark]
 img_cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/img/profile_grad.png"
+avatar: "/assets/img/avatar/avatar.jpg" #"/assets/img/profile_grad.png"
+#url('/assets/img/avatar/avatar.png') #"/assets/img/profile_grad.png"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
