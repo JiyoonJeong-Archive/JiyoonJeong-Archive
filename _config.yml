@@ -1,9 +1,9 @@
 # The Site Configuration
 
 #M: added from internet
-include:
- - _javascript
- - _site
+#include:
+# - _javascript
+# - _site
 
 # Import the theme
 theme: jekyll-theme-chirpy
