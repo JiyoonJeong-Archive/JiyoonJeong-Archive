@@ -31,11 +31,13 @@ html {
 body {
   /* Original code */
   background: var(--main-bg);
-  /*# added 3 lines below
+
+  /* # added 3 lines below
   background: url('/assets/img/background/skyblue_light.png');
   background-size: 100% 100%;
   background-position: center;
   */
+
   padding: env(safe-area-inset-top) env(safe-area-inset-right)
     env(safe-area-inset-bottom) env(safe-area-inset-left);
   color: var(--text-color);
@@ -701,9 +703,11 @@ $btn-mb: 0.5rem;
   overflow-y: auto;
   width: $sidebar-width;
   z-index: 99;
-  /*original code
+
+  /* original code
   background: var(--sidebar-bg);
-  # added 3 lines below*/
+  # added 3 lines below */
+  
   background: url('/assets/img/background/skyblue.png');
   background-size: 100% 100%;
   background-position: center;
