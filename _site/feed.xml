@@ -1,0 +1,201 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Jiyoon Jeong</title>
+  <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
+  <updated>2023-09-01T13:36:55+09:00</updated>
+  <author>
+    <name>Jiyoon Jeong</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+  <rights> © 2023 Jiyoon Jeong </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>About</title>
+    <link href="http://localhost:4000/posts/About/" rel="alternate" type="text/html" title="About" />
+    <published>2023-08-31T09:06:00+09:00</published>
+  
+    <updated>2023-08-31T09:06:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/About/</id>
+    <content src="http://localhost:4000/posts/About/" />
+    <author>
+      <name>Jiyoon Jeong</name>
+    </author>
+
+  
+    
+    <category term="Posts" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Hello, I’m Jiyoon.
+
+My academic objective is to study Visual perception, Attention, and Object recognition.
+
+I am also interested in using Machine learning and Deep learning to understand human cognition.
+
+
+
+Go to Research for more information.
+
+You can download my CV here.
+
+Contact me if you have any question.
+
+
+
+Thank you for visiting my homepage.
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Research</title>
+    <link href="http://localhost:4000/posts/Research/" rel="alternate" type="text/html" title="Research" />
+    <published>2023-08-31T08:34:00+09:00</published>
+  
+    <updated>2023-08-31T08:34:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Research/</id>
+    <content src="http://localhost:4000/posts/Research/" />
+    <author>
+      <name>Jiyoon Jeong</name>
+    </author>
+
+  
+    
+    <category term="Posts" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Education
+
+Korea University
+
+Master of Science in Behavioral &amp;amp; Cognitive Neuroscience
+Mar. 2022 – Aug. 2023 (graduated in three semesters)
+
+Bachelor of Science in Psychology Mar. 2018 – Feb. 2022 (Great Honor)
+
+Bachelor of Engineering in Computer Science &amp;amp; Engineering (Dual degree)
+
+Combined Bachelor’s ∙ Master’s Degree Program in Behavioral &amp;amp; Cognitive Neuroscience
+
+University of B...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Curriculum Vitae</title>
+    <link href="http://localhost:4000/posts/CV/" rel="alternate" type="text/html" title="Curriculum Vitae" />
+    <published>2023-08-31T07:06:00+09:00</published>
+  
+    <updated>2023-08-31T07:06:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/CV/</id>
+    <content src="http://localhost:4000/posts/CV/" />
+    <author>
+      <name>Jiyoon Jeong</name>
+    </author>
+
+  
+    
+    <category term="Posts" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Click here to download my CV.
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Contact</title>
+    <link href="http://localhost:4000/posts/Contact/" rel="alternate" type="text/html" title="Contact" />
+    <published>2023-08-31T05:06:00+09:00</published>
+  
+    <updated>2023-08-31T05:06:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Contact/</id>
+    <content src="http://localhost:4000/posts/Contact/" />
+    <author>
+      <name>Jiyoon Jeong</name>
+    </author>
+
+  
+    
+    <category term="Posts" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      E-mail
+jiyoonjeong.psyc@gmail.com
+
+Address
+145, Anam-ro, Seongbuk-gu, Seoul, Republic of Korea, 02841.
+
+Homepage
+https://jiyoonjeong-archive.github.io
+
+Facebook
+https://www.facebook.com/jeongjiyoon357/
+
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
