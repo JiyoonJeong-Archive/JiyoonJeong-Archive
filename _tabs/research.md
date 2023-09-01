@@ -6,7 +6,7 @@ order: 2
 
 # Education
 
-## Korea University	
+### Korea University	
 
 **Master of Science in Behavioral & Cognitive Neuroscience**
 Mar. 2022 – Aug. 2023 (graduated in three semesters)
@@ -20,7 +20,7 @@ Mar. 2022 – Aug. 2023 (graduated in three semesters)
 
 **Combined Bachelor’s ∙ Master’s Degree Program in Behavioral & Cognitive Neuroscience**
 
-## University of British Columbia	
+### University of British Columbia	
 
 **Exchange student**	
 Sep. 2019 – Dec. 2019
