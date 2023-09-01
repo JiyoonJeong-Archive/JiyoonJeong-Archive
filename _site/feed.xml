@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Jiyoon Jeong</title>
   <subtitle>Homepage introducing my research interests and experiences.</subtitle>
-  <updated>2023-09-02T01:05:46+09:00</updated>
+  <updated>2023-09-02T03:06:14+09:00</updated>
   <author>
     <name>Jiyoon Jeong</name>
     <uri>http://localhost:4000/</uri>
@@ -75,7 +75,7 @@ Thank you for visiting my homepage.
     <link href="http://localhost:4000/posts/Research/" rel="alternate" type="text/html" title="Research" />
     <published>2023-08-31T08:34:00+09:00</published>
   
-    <updated>2023-09-02T00:25:36+09:00</updated>
+    <updated>2023-09-02T01:08:31+09:00</updated>
   
     <id>http://localhost:4000/posts/Research/</id>
     <content src="http://localhost:4000/posts/Research/" />
