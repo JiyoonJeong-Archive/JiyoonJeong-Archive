@@ -1,6 +1,6 @@
 ---
 #layout: archives
-icon: fas fa-archive
+icon: fas fa-file-alt
 order: 2
 ---
 
@@ -84,4 +84,4 @@ _Korean Psychological Association, Virtual._
 MATLAB _(PsychToolbox, EEGLAB, etc.)_,  Python _(PsychoPy, PyTorch, ScikitLearn, etc.)_, C, C++, Linux commands, OpenSesame _(Mouse Tracking)_,  SPSS,  JASP,  Excel,  PostgreSQL,  AWS Certified Cloud Practitioner
 
 ## Languages
-English (fluent), Korean (native), German (intermediate), Spanish ∙ Japanese (basic)
+English _(fluent)_, Korean _(native)_, German _(intermediate)_, Spanish ∙ Japanese _(basic)_

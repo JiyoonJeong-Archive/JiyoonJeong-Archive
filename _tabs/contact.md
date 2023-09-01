@@ -1,6 +1,6 @@
 ---
 #layout: archives
-icon: fas fa-tags
+icon: fab fa-facebook-messenger
 order: 4
 ---
 

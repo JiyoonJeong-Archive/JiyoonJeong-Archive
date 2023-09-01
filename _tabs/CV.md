@@ -1,6 +1,6 @@
 ---
 #layout: archives
-icon: fas fa-archive
+icon: fas fa-paperclip
 order: 3
 ---
 
