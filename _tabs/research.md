@@ -22,7 +22,7 @@ Mar. 2022 – Aug. 2023 (graduated in three semesters)
 
 ### University of British Columbia	
 
-**Exchange student**	
+**Exchange student program**	
 Sep. 2019 – Dec. 2019
 
 
@@ -36,12 +36,16 @@ Kim, S., **Jeong, J.**, & Cho, Y. S. (To be submitted). Capture-Probe Paradigms 
 
 
 # Conference Presentations
+**Jeong, J.** & Cho Y.S. (Nov. 2023). Objects Modulate Attentional Suppression in Target Search but not in Distractor Inhibition.
+_Psychonomic Society, San Francisco, CA, USA._
 
-**Jeong, J.** & Cho Y.S. (Feb. 2023). Objects Modulate Attentional Suppression through Statistical Learning: Differential Effects of Object-based Attention on Singleton Distractor Inhibition and Target Search. 
+**Jeong, J.** & Cho Y.S. (Feb. 2023). Objects Modulate Attentional Suppression through Statistical Learning: Differential Effects of Object-based Attention on Singleton Distractor Inhibition and Target Search. **[Best Presentation Award]**
 _Korean Society for Cognitive and Biological Psychology, Seoul, Korea._
+(View [key graphics](http://JiyoonJeong-Archive.github.io/about/#object-based-configuration-of-attentional-priority-map))
 
 **Jeong, J.**, Kim, S. & Cho, Y.S. (Nov. 2022). Attentional Suppression of Salient Singleton is Proactive: Examination with Finer Time Resolution in Capture-Probe Task.
 _OPAM (Object Perception, Attention, & Memory), Boston, MA, USA._
+(View [poster](https://drive.google.com/file/d/1VZJgTFxC979QPvNEGsK8ZtHcvkTwCiF0/view?usp=drive_link))
 
 Lee, S.H. & **Jeong, J.** (Aug. 2023). The Effect of Object Representation on Feature-based Suppression.
 _Korean Psychological Association, Suwon, Korea._
@@ -51,6 +55,7 @@ _Korean Psychological Association, Virtual._
 
 Lim, A., Kim, S., **Jeong, J.**, Lee, J.E., & Lee, Y.S. (Aug. 2020). The Congruency Sequence Effect Modulated by the Distance of Response Keys.
 _Korean Psychological Association, Virtual._
+(View [key graphics](http://JiyoonJeong-Archive.github.io/posts/Projects/#attention--response-selection))
 
 
 
@@ -64,13 +69,13 @@ _Korean Psychological Association, Virtual._
 
 ### Korea University
 
-**Semester High Honors** Spring 2018 – Fall 2021 (five times)
-
-**Great Honor** Winter 2021 Graduation
-
 **Research Assistant Scholarship** Fall 2022
 
 **Administrative Assistant Scholarship** Spring 2022
+
+**Great Honor** Winter 2021 Graduation
+
+**Semester High Honors** Spring 2018 – Fall 2021 (five times)
 
 ### Korean Society for Cognitive & Biological Psychology
 
@@ -81,7 +86,7 @@ _Korean Psychological Association, Virtual._
 # Specialized Skills
 
 ## Programs & Certificates (intermediate or higher levels)
-MATLAB _(PsychToolbox, EEGLAB, etc.)_,  Python _(PsychoPy, PyTorch, ScikitLearn, etc.)_, C, C++, Linux commands, OpenSesame _(Mouse Tracking)_,  SPSS,  JASP,  Excel,  PostgreSQL,  AWS Certified Cloud Practitioner
+MATLAB _(PsychToolbox, EEGLAB, etc.)_,  Python _(PsychoPy, PyTorch, ScikitLearn, etc.)_, C, C++, OpenSesame _(Mouse Tracking)_,  SPSS,  JASP, G-Power,  Excel,  PostgreSQL, AWS Certified Cloud Practitioner
 
 ## Languages
 English _(fluent)_, Korean _(native)_, German _(intermediate)_, Spanish ∙ Japanese _(basic)_

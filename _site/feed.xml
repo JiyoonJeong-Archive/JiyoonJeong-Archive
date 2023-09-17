@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Jiyoon Jeong</title>
   <subtitle>Homepage introducing my research interests and experiences.</subtitle>
-  <updated>2023-09-02T03:06:14+09:00</updated>
+  <updated>2023-09-18T01:48:46+09:00</updated>
   <author>
     <name>Jiyoon Jeong</name>
     <uri>http://localhost:4000/</uri>
@@ -50,11 +50,11 @@
 
 My academic objective is to study Visual perception, Attention, and Object recognition.
 
-I am also interested in using Machine learning and Deep learning to understand human cognition.
+I am also interested in using Machine learning and Deep learning models to understand human cognition.
 
 
 
-Go to Research for more information.
+Go to Research and Projects for more information.
 
 You can download my CV here.
 
@@ -64,6 +64,9 @@ Contact me if you have any question.
 
 Thank you for visiting my homepage.
 
+
+
+Preview of my Research...
     </summary>
   
 
@@ -118,6 +121,50 @@ University of B...
 
   
   <entry>
+    <title>Projects</title>
+    <link href="http://localhost:4000/posts/Projects/" rel="alternate" type="text/html" title="Projects" />
+    <published>2023-08-31T08:30:00+09:00</published>
+  
+    <updated>2023-08-31T08:30:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Projects/</id>
+    <content src="http://localhost:4000/posts/Projects/" />
+    <author>
+      <name>Jiyoon Jeong</name>
+    </author>
+
+  
+    
+    <category term="Posts" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Course Projects
+
+Natural Language Processing
+Developed a cryptocurrency price prediction model through sentiment analysis of Twitter API data by implementing LSTM and BERT-GRU model. Selected as an outstanding project in class. 
+
+(View report)
+
+
+
+Machine Learning
+Performed categorical predictions on demographic datasets with probabilistic, linear, and non-linear models, including Bayesian class...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Curriculum Vitae</title>
     <link href="http://localhost:4000/posts/CV/" rel="alternate" type="text/html" title="Curriculum Vitae" />
     <published>2023-08-31T07:06:00+09:00</published>
@@ -144,7 +191,8 @@ University of B...
 
 
 
-      Click here to download my CV.
+      Click here to download my CV.  
+(updated 230917)
 
     </summary>
   
@@ -183,7 +231,8 @@ University of B...
 jiyoonjeong.psyc@gmail.com
 
 Address
-145, Anam-ro, Seongbuk-gu, Seoul, Republic of Korea, 02841.
+Uncho Useon Hall B102-F, Korea University 
+13, Jongam-ro, Seongbuk-gu, Seoul, Republic of Korea, 02841.
 
 Homepage
 https://jiyoonjeong-archive.github.io

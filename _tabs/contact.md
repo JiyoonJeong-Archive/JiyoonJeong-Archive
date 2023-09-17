@@ -9,7 +9,8 @@ jiyoonjeong.psyc@gmail.com
 
 
 ## Address
-145, Anam-ro, Seongbuk-gu, Seoul, Republic of Korea, 02841.
+Uncho Useon Hall B102-F, Korea University <br/>
+13, Jongam-ro, Seongbuk-gu, Seoul, Republic of Korea, 02841.
 
 
 ## Homepage 
