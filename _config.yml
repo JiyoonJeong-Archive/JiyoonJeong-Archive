@@ -83,7 +83,7 @@ img_cdn: #"https://i.ibb.co/GQXKfLH/NLP-project-abstract.png"
 #"https://github.com/JiyoonJeong-Archive/JiyoonJeong-Archive.github.io/tree/main/assets/img" #원래: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://i.ibb.co/sbcWtYJ/profile-grad.png" #"https://ibb.co/VJbw34p" #"/assets/img/avatar/profile_grad.png"
+avatar: "https://i.ibb.co/N1sQSsG/profile3.jpg" #"https://i.ibb.co/sbcWtYJ/profile-grad.png" 
 #url('/assets/img/avatar/avatar.png') #"/assets/img/avatar/profile_grad.png"
 
 # boolean type, the global switch for TOC in posts.
