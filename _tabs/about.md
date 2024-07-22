@@ -6,9 +6,15 @@ order: 1
 ---
 Hello, I'm Jiyoon. 
 
-My academic objective is to study **Visual perception**, **Attention**, and **Object recognition**. 
+I am interested in **how people effectively process incoming sensory information through attention**.
 
-I am also interested in using **Machine learning** and **Deep learning models** to understand human cognition.
+My research aims to study its neural mechanisms using EEG and artificial neural networks.
+
+Outside of research, I enjoy traveling to places with beautiful nature and listening to acappella music.
+
+I'm currently studying at University of Toronto and working with Dr. Matthias Niemeier as a Ph.D. candidate in Psychology. 
+
+I received my B.S. and M.S. in Psychology and a B.E. in Computer Science from Korea University. 
 
 <br/>
 
@@ -16,7 +22,7 @@ Go to [Research](https://jiyoonjeong-archive.github.io/posts/Research) and [Proj
 
 You can download my [CV](https://jiyoonjeong-archive.github.io/posts/CV) here.
 
-[Contact](https://jiyoonjeong-archive.github.io/posts/Contact) me if you have any question. 
+Email: jy.jeong@mail.utoronto.ca / See [Contact](https://jiyoonjeong-archive.github.io/posts/Contact) for more ways to connect!
 
 <br/>
 
