@@ -6,6 +6,11 @@ order: 2
 
 # Education
 
+### University of Toronto
+
+**Ph.D. Candidate in Psychology**
+Present
+
 ### Korea University	
 
 **Master of Science in Behavioral & Cognitive Neuroscience**
@@ -15,7 +20,7 @@ Mar. 2022 – Aug. 2023 (graduated in three semesters)
 
 
 
-**Bachelor of Engineering in Computer Science & Engineering** (Dual degree)
+**Bachelor of Engineering in Computer Science & Engineering** Mar. 2018 – Feb. 2022 (Dual degree)
 
 
 **Combined Bachelor’s ∙ Master’s Degree Program in Behavioral & Cognitive Neuroscience**
@@ -29,9 +34,9 @@ Sep. 2019 – Dec. 2019
 
 # Publications
 
-**Jeong, J.** & Cho, Y. S. (Under review). Object-based Suppression in Target Search but not in Distractor Inhibition. _Attention, Perception, & Psychophysics._
+**Jeong, J.** & Cho, Y. S. (2024). Object-based suppression in target search but not in distractor inhibition. _Attention, Perception, and Psychophysics_. https://doi.org/10.3758/s13414-024-02905-7 [PDF](https://drive.google.com/file/d/1osSD4dHbjY_AJguS3jf26dGYkud1BsyM/view?usp=drive_link)
 
-Kim, S., **Jeong, J.**, & Cho, Y. S. (To be submitted). Capture-Probe Paradigms May Not Measure Purely Proactive Suppression: Direct Testing of Assumptions for Proactive Suppression Accounts. 
+Kim, S., **Jeong, J.**, & Cho, Y. S. (2024). Proactive suppression is evident even if the probe-recognition assumption is not evident: complementary relationship between proactive and reactive suppression. _Visual Cognition_, 1–14. https://doi.org/10.1080/13506285.2024.2343158 [PDF](https://drive.google.com/file/d/1BUKrlDzQapZAcuxPywuio0yhnGSJus9M/view?usp=sharing)
 
 
 
