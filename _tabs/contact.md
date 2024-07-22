@@ -5,13 +5,7 @@ order: 4
 ---
 
 ## E-mail
-jiyoonjeong.psyc@gmail.com 
-
-
-## Address
-Uncho Useon Hall B102-F, Korea University <br/>
-13, Jongam-ro, Seongbuk-gu, Seoul, Republic of Korea, 02841.
-
+[jy.jeong@mail.utoronto.ca](mailto:jy.jeong@mail.utoronto.ca)
 
 ## Homepage 
 [https://jiyoonjeong-archive.github.io](https://jiyoonjeong-archive.github.io)
