@@ -2,7 +2,7 @@
 
 # M: added from internet
 include:
-  - _site
+#  - _site
 #  - _javascript #include하면 안됨!
 
 # Import the theme
