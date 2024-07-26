@@ -15,11 +15,11 @@ before_script:
 script: ./script/cibuild
 
 # branch whitelist, only for GitHub Pages
-branches:
-  only:
-  #- main # M added - 이것밖에없음
-  - gh-pages     # test the gh-pages branch
-  - /pages-(.*)/ # test every branch which starts with "pages-"
+#branches:
+#  only:
+#  #- main # M added - 이것밖에없음
+#  - gh-pages     # test the gh-pages branch
+#  - /pages-(.*)/ # test every branch which starts with "pages-"
 
 env:
   global:
