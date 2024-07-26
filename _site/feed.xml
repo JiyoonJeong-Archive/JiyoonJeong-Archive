@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/</id>
+  <id>https://jiyoonjeong-archive.github.io/</id>
   <title>Jiyoon Jeong</title>
   <subtitle>Homepage introducing my research interests and experiences.</subtitle>
-  <updated>2024-07-26T23:17:36+09:00</updated>
+  <updated>2024-07-26T23:29:49+09:00</updated>
   <author>
     <name>Jiyoon Jeong</name>
-    <uri>http://localhost:4000/</uri>
+    <uri>https://jiyoonjeong-archive.github.io/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://jiyoonjeong-archive.github.io/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4000/"/>
+    href="https://jiyoonjeong-archive.github.io/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
   <rights> © 2024 Jiyoon Jeong </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>About</title>
-    <link href="http://localhost:4000/posts/About/" rel="alternate" type="text/html" title="About" />
+    <link href="https://jiyoonjeong-archive.github.io/posts/About/" rel="alternate" type="text/html" title="About" />
     <published>2023-08-31T09:06:00+09:00</published>
   
     <updated>2024-07-22T10:48:05+09:00</updated>
   
-    <id>http://localhost:4000/posts/About/</id>
-    <content src="http://localhost:4000/posts/About/" />
+    <id>https://jiyoonjeong-archive.github.io/posts/About/</id>
+    <content src="https://jiyoonjeong-archive.github.io/posts/About/" />
     <author>
       <name>Jiyoon Jeong</name>
     </author>
@@ -65,13 +65,13 @@ Go t...
   
   <entry>
     <title>Research</title>
-    <link href="http://localhost:4000/posts/Research/" rel="alternate" type="text/html" title="Research" />
+    <link href="https://jiyoonjeong-archive.github.io/posts/Research/" rel="alternate" type="text/html" title="Research" />
     <published>2023-08-31T08:34:00+09:00</published>
   
     <updated>2024-07-22T10:48:04+09:00</updated>
   
-    <id>http://localhost:4000/posts/Research/</id>
-    <content src="http://localhost:4000/posts/Research/" />
+    <id>https://jiyoonjeong-archive.github.io/posts/Research/</id>
+    <content src="https://jiyoonjeong-archive.github.io/posts/Research/" />
     <author>
       <name>Jiyoon Jeong</name>
     </author>
@@ -103,13 +103,13 @@ Kim, S., Jeong, J., &amp;amp; Cho, Y. S. (2024). Proactive suppression is eviden
   
   <entry>
     <title>Projects</title>
-    <link href="http://localhost:4000/posts/Projects/" rel="alternate" type="text/html" title="Projects" />
+    <link href="https://jiyoonjeong-archive.github.io/posts/Projects/" rel="alternate" type="text/html" title="Projects" />
     <published>2023-08-31T08:30:00+09:00</published>
   
     <updated>2023-09-18T04:04:23+09:00</updated>
   
-    <id>http://localhost:4000/posts/Projects/</id>
-    <content src="http://localhost:4000/posts/Projects/" />
+    <id>https://jiyoonjeong-archive.github.io/posts/Projects/</id>
+    <content src="https://jiyoonjeong-archive.github.io/posts/Projects/" />
     <author>
       <name>Jiyoon Jeong</name>
     </author>
@@ -147,13 +147,13 @@ Performed categorical predictions on demographic datasets with probabilistic, li
   
   <entry>
     <title>CV</title>
-    <link href="http://localhost:4000/posts/CV/" rel="alternate" type="text/html" title="CV" />
+    <link href="https://jiyoonjeong-archive.github.io/posts/CV/" rel="alternate" type="text/html" title="CV" />
     <published>2023-08-31T07:06:00+09:00</published>
   
     <updated>2024-07-22T10:48:03+09:00</updated>
   
-    <id>http://localhost:4000/posts/CV/</id>
-    <content src="http://localhost:4000/posts/CV/" />
+    <id>https://jiyoonjeong-archive.github.io/posts/CV/</id>
+    <content src="https://jiyoonjeong-archive.github.io/posts/CV/" />
     <author>
       <name>Jiyoon Jeong</name>
     </author>
@@ -183,8 +183,6 @@ Performed categorical predictions on demographic datasets with probabilistic, li
 
 
 
-
-
     </summary>
   
 
@@ -193,13 +191,13 @@ Performed categorical predictions on demographic datasets with probabilistic, li
   
   <entry>
     <title>Contact</title>
-    <link href="http://localhost:4000/posts/Contact/" rel="alternate" type="text/html" title="Contact" />
+    <link href="https://jiyoonjeong-archive.github.io/posts/Contact/" rel="alternate" type="text/html" title="Contact" />
     <published>2023-08-31T05:06:00+09:00</published>
   
     <updated>2024-07-22T10:48:01+09:00</updated>
   
-    <id>http://localhost:4000/posts/Contact/</id>
-    <content src="http://localhost:4000/posts/Contact/" />
+    <id>https://jiyoonjeong-archive.github.io/posts/Contact/</id>
+    <content src="https://jiyoonjeong-archive.github.io/posts/Contact/" />
     <author>
       <name>Jiyoon Jeong</name>
     </author>
