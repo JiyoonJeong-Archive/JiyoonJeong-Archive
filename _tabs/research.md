@@ -4,34 +4,6 @@ icon: fas fa-file-alt
 order: 2
 ---
 
-# Education
-
-### University of Toronto
-
-**Ph.D. Candidate in Psychology**
-Present
-
-### Korea University	
-
-**Master of Science in Behavioral & Cognitive Neuroscience**
-Mar. 2022 – Aug. 2023 (graduated in three semesters)
-
-**Bachelor of Science in Psychology** Mar. 2018 – Feb. 2022 (Great Honor)
-
-
-
-**Bachelor of Engineering in Computer Science & Engineering** Mar. 2018 – Feb. 2022 (Dual degree)
-
-
-**Combined Bachelor’s ∙ Master’s Degree Program in Behavioral & Cognitive Neuroscience**
-
-### University of British Columbia	
-
-**Exchange student program**	
-Sep. 2019 – Dec. 2019
-
-
-
 # Publications
 
 **Jeong, J.** & Cho, Y. S. (2024). Object-based suppression in target search but not in distractor inhibition. _Attention, Perception, and Psychophysics_. https://doi.org/10.3758/s13414-024-02905-7 [PDF](https://drive.google.com/file/d/1osSD4dHbjY_AJguS3jf26dGYkud1BsyM/view?usp=drive_link)
@@ -41,8 +13,10 @@ Kim, S., **Jeong, J.**, & Cho, Y. S. (2024). Proactive suppression is evident ev
 
 
 # Conference Presentations
+
 **Jeong, J.** & Cho Y.S. (Nov. 2023). Objects Modulate Attentional Suppression in Target Search but not in Distractor Inhibition.
 _Psychonomic Society, San Francisco, CA, USA._
+(View [poster](https://drive.google.com/file/d/15M30X67miIs_Y1noZF_7Hu0oOvbdJOc6/view?usp=drive_link))
 
 **Jeong, J.** & Cho Y.S. (Feb. 2023). Objects Modulate Attentional Suppression through Statistical Learning: Differential Effects of Object-based Attention on Singleton Distractor Inhibition and Target Search. **[Best Presentation Award]**
 _Korean Society for Cognitive and Biological Psychology, Seoul, Korea._
@@ -62,36 +36,26 @@ Lim, A., Kim, S., **Jeong, J.**, Lee, J.E., & Lee, Y.S. (Aug. 2020). The Congrue
 _Korean Psychological Association, Virtual._
 (View [key graphics](http://JiyoonJeong-Archive.github.io/posts/Projects/#attention--response-selection))
 
+<br/>
 
+# Preview of my Research & Projects
 
-# Award & Honors
+## Object-based Configuration of Attentional Priority Map
+![Object-based_attentional_priority](https://i.ibb.co/9gNLh0d/Object-based-attentional-priority.png) <br/>
+![Object-based_attention_image2](https://i.ibb.co/WFKfGsm/Object-based-attention-image2.png)
+_Images from Conference Presentation: Jeong, J. & Cho Y.S. (Feb. 2023)_
 
-### National Research Foundation of Korea 
+## Feature-based Attention & Feature Map
+![OPAM_Feature-based_attention](https://i.ibb.co/s5yF5Rm/OPAM-Feature-based-attention.png)
+_Poster from Conference Presentation: Jeong, J., Kim, S., & Cho Y.S. (Nov. 2022)_
 
-**Brain Korea 21 Research Scholarship** Spring 2022 & 2023 (two times)
+## Neural Correlates of Object/Feature-based Attention
+![IC6_image_resize](https://i.ibb.co/jh74Hmr/IC6-image.png)
 
-**Brain Korea 21 Combined Bachelor’s ∙ Master’s Degree Program Scholarship** (Spring 2023)
+_Image from my EEG Experiment Data (In progress)_
 
-### Korea University
-
-**Research Assistant Scholarship** Fall 2022
-
-**Administrative Assistant Scholarship** Spring 2022
-
-**Great Honor** Winter 2021 Graduation
-
-**Semester High Honors** Spring 2018 – Fall 2021 (five times)
-
-### Korean Society for Cognitive & Biological Psychology
-
-**Best Presentation Award** Feb. 2023
-
-
-
-# Specialized Skills
-
-## Programs & Certificates (intermediate or higher levels)
-MATLAB _(PsychToolbox, EEGLAB, etc.)_,  Python _(PsychoPy, PyTorch, ScikitLearn, etc.)_, C, C++, OpenSesame _(Mouse Tracking)_,  SPSS,  JASP, G-Power,  Excel,  PostgreSQL, AWS Certified Cloud Practitioner
-
-## Languages
-English _(fluent)_, Korean _(native)_, German _(intermediate)_, Spanish ∙ Japanese _(basic)_
+## Machine Learning & Deep Learning Models
+![NLP_project_abstract](https://i.ibb.co/GQXKfLH/NLP-project-abstract.png)
+_Report from Project: Natural Language Processing (Sentiment Analysis)_ [CODE](https://github.com/JiyoonJeong-Archive/Project-Natural_Language_Processing)
+![Machine_learning](https://i.ibb.co/h76FKwZ/Machine-learning.png)
+_Code/Graphics from Project: Machine learning (Categorical Prediction)_ [CODE](https://github.com/JiyoonJeong-Archive/Projects-Machine_Learning)
