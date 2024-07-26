@@ -13,21 +13,35 @@ tail_includes:
 
 <h1 data-toc-skip>{{ page.title }}</h1>
 
+<!-- M added-start 240726 -->
+{% if page.description %}
+  <p class="post-desc fw-light mb-4">{{ page.description }}</p>
+{% endif %}
+<!-- M added-end 240726 -->
+
 <div class="post-meta text-muted">
-    <!-- published date -->
-    <span>
-      {{ site.data.locales[lang].post.posted }}
-      {% include datetime.html date=page.date tooltip=true lang=lang %}
-    </span>
 
-    <!-- lastmod date -->
-    {% if page.last_modified_at and page.last_modified_at != page.date %}
-    <span>
-      {{ site.data.locales[lang].post.updated }}
-      {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
-    </span>
-    {% endif %}
+  <!-- M added 240726 
+  {% if page.description %}
+    <p class="post-desc fw-light mb-4">{{ page.description }}</p>
+  {% endif %}
+  -->
 
+  <!-- published date -->
+  <span>
+    {{ site.data.locales[lang].post.posted }}
+    {% include datetime.html date=page.date tooltip=true lang=lang %}
+  </span>
+
+  <!-- lastmod date -->
+  {% if page.last_modified_at and page.last_modified_at != page.date %}
+  <span>
+    {{ site.data.locales[lang].post.updated }}
+    {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
+  </span>
+  {% endif %}
+
+  <!-- M edited 240726 : commented (thumbnail image not shown within post)
   {% if page.image %}
     {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
     {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
@@ -45,7 +59,8 @@ tail_includes:
         <figcaption class="text-center pt-2 pb-2">{{ page.image.alt }}</figcaption>
       {%- endif -%}
     </div>
-  {% endif %}
+  {% endif %} 
+  -->
 
   <div class="d-flex justify-content-between">
     <!-- author(s) -->
@@ -75,9 +90,10 @@ tail_includes:
       {% include read-time.html content=content prompt=true lang=lang %}
     </div>
 
-  </div> <!-- .d-flex -->
+</div> <!-- .d-flex -->
 
 </div> <!-- .post-meta -->
+
 
 <div class="post-content">
   {{ content }}

@@ -65,17 +65,25 @@ refactor: true
           </h1>
 
           <div class="card-text post-content mt-0 mb-2">
+            <!-- M added_start 240726 -->
+            <p> {% include post-description.html %} </p>
+            <!-- M added_end 240726 -->
+            <!-- M commented_start 240726
             <p>
               {% include no-linenos.html content=post.content %}
               {{ content | markdownify | strip_html | truncate: 200 | escape }}
             </p>
+            M commented_end 240726 -->
+            
           </div>
 
           <div class="post-meta flex-grow-1 d-flex align-items-end">
             <div class="me-auto">
               <!-- posted date -->
               <i class="far fa-calendar fa-fw me-1"></i>
-              {% include datetime.html date=post.date lang=lang %}
+              {% include datetime.html date=post.last_modified_at lang=lang %} 
+                <!-- M added 240726 -->
+                <!-- original file: 'date' instead of 'last_modified_at' -->
 
               <!-- categories -->
               {% if post.categories.size > 0 %}

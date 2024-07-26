@@ -6,13 +6,11 @@ order: 1
 ---
 Hello, I'm Jiyoon. 
 
-I am interested in **how people effectively process incoming sensory information through attention**.
+I am interested in _how people effectively process incoming sensory information through attention_.
 
-My research aims to study its neural mechanisms using EEG and artificial neural networks.
+My research aims to study its neural mechanisms using _EEG_ and _artificial neural networks_.
 
-I'm currently studying at University of Toronto as a Ph.D. candidate in Psychology. 
-
-I received my B.S. and M.S. in Psychology and a B.E. in Computer Science from Korea University. 
+I'm currently studying at University of Toronto as a Ph.D. candidate in Psychology. I received my B.S. and M.S. in Psychology and a B.E. in Computer Science from Korea University. 
 
 <br/>
 
@@ -28,66 +26,85 @@ Thank you for visiting my homepage.
 
 <br/>
 
-# Education
+<!-- M added 240726
+AAAA 
+{: data-toc-skip='' .mt-4 .mb-0 } // mt - AAAA의 줄 위(top) 간격, mb - AAAA의  줄 아래(bottom) 간격 
+&emsp; = space 4개, &ensp; = space 2개 
+-->
+
+## Education <!-- M edited 240726-->
+<!-- original: # Education / for size comparision: ### Education -->
 
 ### University of Toronto
+{: data-toc-skip='' .mb-3}
 
-**Ph.D. Candidate in Psychology**
-Present
+**Ph.D. Candidate in Psychology** &emsp; Sep. 2024 - Present
 
 ### Korea University	
+{: data-toc-skip='' .mb-3}
 
-**Master of Science in Behavioral & Cognitive Neuroscience**
-Mar. 2022 – Aug. 2023 (graduated in three semesters)
-
-**Bachelor of Science in Psychology** Mar. 2018 – Feb. 2022 (Great Honor)
-
-
-
-**Bachelor of Engineering in Computer Science & Engineering** Mar. 2018 – Feb. 2022 (Dual degree)
-
-
+**Master of Science in Behavioral & Cognitive Neuroscience** &emsp; Mar. 2022 – Aug. 2023&ensp;(early graduation)
+{: .mt-2 .mb-0 }
+**Bachelor of Science in Psychology** &emsp; Mar. 2018 – Feb. 2022&ensp;(Great Honor)
+{: .mt-2 .mb-0 }
+**Bachelor of Engineering in Computer Science & Engineering** &emsp; Mar. 2018 – Feb. 2022&ensp;(Dual degree)
+{: .mt-2 .mb-0 }
 **Combined Bachelor’s ∙ Master’s Degree Program in Behavioral & Cognitive Neuroscience**
+{: .mt-2 .mb-0 }
 
 ### University of British Columbia	
+{: data-toc-skip='' .mb-3}
 
-**Exchange student program**	
-Sep. 2019 – Dec. 2019
+**Exchange student program** &emsp; Sep. 2019 – Dec. 2019
+{: .mt-2 .mb-0 }
 
+<br/>
 
-
-# Award & Honors
+## Award & Honors
 
 ### University of Toronto
+{: data-toc-skip='' .mb-3}
 
-**Connaught International Scholarship**	Fall 2024 – Winter 2028
+**Connaught International Scholarship** &emsp; Fall 2024 – Winter 2028
 
 ### National Research Foundation of Korea 
+{: data-toc-skip='' .mb-3}
 
-**Brain Korea 21 Research Scholarship** Spring 2022 & 2023 (two times)
-
-**Brain Korea 21 Combined Bachelor’s ∙ Master’s Degree Program Scholarship** (Spring 2023)
+**Brain Korea 21 Research Scholarship** &emsp; Spring 2022 & 2023 (two times)
+{: .mt-2 .mb-0 }
+**Brain Korea 21 Combined Bachelor’s ∙ Master’s Degree Program Scholarship** &emsp; Spring 2023
+{: .mt-2 .mb-0 }
 
 ### Korea University
+{: data-toc-skip='' .mb-3}
 
-**Research Assistant Scholarship** Fall 2022
-
-**Administrative Assistant Scholarship** Spring 2022
-
-**Great Honor** Winter 2021 Graduation
-
-**Semester High Honors** Spring 2018 – Fall 2021 (five times)
+**Research Assistant Scholarship** &emsp; Fall 2022
+{: .mt-2 .mb-0 }
+**Administrative Assistant Scholarship** &emsp; Spring 2022
+{: .mt-2 .mb-0 }
+**Great Honor** &emsp; Winter 2021 Graduation
+{: .mt-2 .mb-0 }
+**Semester High Honors** &emsp; Spring 2018 – Fall 2021 (five times)
+{: .mt-2 .mb-0 }
 
 ### Korean Society for Cognitive & Biological Psychology
+{: data-toc-skip='' .mb-3}
 
-**Best Presentation Award** Feb. 2023
+**Best Presentation Award** &emsp; Feb. 2023
+{: .mt-2 .mb-0 }
 
+<br/>
 
+## Specialized Skills
 
-# Specialized Skills
+### Programs & Certificates (intermediate or higher levels) 
+{: data-toc-skip='' .mb-3}
 
-## Programs & Certificates (intermediate or higher levels)
 MATLAB _(PsychToolbox, EEGLAB, etc.)_,  Python _(PsychoPy, PyTorch, ScikitLearn, etc.)_, C, C++, OpenSesame _(Mouse Tracking)_,  SPSS,  JASP, G-Power,  Excel,  PostgreSQL, AWS Certified Cloud Practitioner
+{: .mt-2 .mb-0 }
 
-## Languages
+### Languages
+{: data-toc-skip='' .mb-3}
+
 English _(fluent)_, Korean _(native)_, German _(intermediate)_, Spanish ∙ Japanese _(basic)_
+{: .mt-2 .mb-0 }

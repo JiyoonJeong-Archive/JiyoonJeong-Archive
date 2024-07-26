@@ -56,6 +56,11 @@ _Image from my EEG Experiment Data (In progress)_
 
 ## Machine Learning & Deep Learning Models
 ![NLP_project_abstract](https://i.ibb.co/GQXKfLH/NLP-project-abstract.png)
-_Report from Project: Natural Language Processing (Sentiment Analysis)_ [CODE](https://github.com/JiyoonJeong-Archive/Project-Natural_Language_Processing)
+_Report from Project: Natural Language Processing (Sentiment Analysis)_ 
+[CODE](https://github.com/JiyoonJeong-Archive/Project-Natural_Language_Processing)
+
+<br/>
+
 ![Machine_learning](https://i.ibb.co/h76FKwZ/Machine-learning.png)
-_Code/Graphics from Project: Machine learning (Categorical Prediction)_ [CODE](https://github.com/JiyoonJeong-Archive/Projects-Machine_Learning)
+_Code/Graphics from Project: Machine learning (Categorical Prediction)_ 
+[CODE](https://github.com/JiyoonJeong-Archive/Projects-Machine_Learning)
