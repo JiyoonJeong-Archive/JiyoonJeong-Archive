@@ -68,7 +68,7 @@ const resource = [
 const allowedDomains = [
     
 
-    'JiyoonJeong-Archive.github.io',
+    'localhost:4000',
 
     
 
