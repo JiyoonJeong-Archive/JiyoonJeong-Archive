@@ -1,7 +1,7 @@
 # The Site Configuration
 
 # M: added from internet
-include:
+#include:
 #  - _site
 #  - _javascript #include하면 안됨!
 
