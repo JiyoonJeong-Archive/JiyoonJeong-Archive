@@ -2,6 +2,8 @@
 
 source "https://rubygems.org"
 
+gem `github-pages` #M added 240726 - CI 해결 시도
+
 gemspec
 
 group :test do
