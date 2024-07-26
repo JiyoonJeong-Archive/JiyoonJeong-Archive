@@ -21,6 +21,8 @@ const resource = [
     
         '/archives/',
     
+        '/categories/',
+    
 
     /* --- Favicons & compressed JS --- */
     
