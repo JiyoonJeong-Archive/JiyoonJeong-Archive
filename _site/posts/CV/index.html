@@ -16,8 +16,6 @@
 <!-- `site.alt_lang` can specify a language different from the UI -->
 <html lang="en" 
   
-    data-mode="light"
-  
 >
   <!-- The Head -->
 
@@ -39,7 +37,7 @@
   
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="Curriculum Vitae" />
+<meta property="og:title" content="CV" />
 <meta name="author" content="Jiyoon Jeong" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="Click here to download my CV. (updated 240722)" />
@@ -50,16 +48,16 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2023-08-31T07:06:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Curriculum Vitae" />
+<meta property="twitter:title" content="CV" />
 <meta name="twitter:site" content="@twitter_username" />
 <meta name="twitter:creator" content="@Jiyoon Jeong" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jiyoon Jeong","url":"https://jiyoonjeong-archive.github.io"},"dateModified":"2024-07-22T10:48:03+09:00","datePublished":"2023-08-31T07:06:00+09:00","description":"Click here to download my CV. (updated 240722)","headline":"Curriculum Vitae","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/CV/"},"url":"http://localhost:4000/posts/CV/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jiyoon Jeong","url":"https://jiyoonjeong-archive.github.io"},"dateModified":"2024-07-22T10:48:03+09:00","datePublished":"2023-08-31T07:06:00+09:00","description":"Click here to download my CV. (updated 240722)","headline":"CV","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/CV/"},"url":"http://localhost:4000/posts/CV/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
 
-  <title>Curriculum Vitae | Jiyoon Jeong
+  <title>CV | Jiyoon Jeong
   </title>
 
   <!--
@@ -120,6 +118,151 @@
   
 
   <!-- JavaScript -->
+
+  
+    <!-- Switch the mode between dark and light. -->
+
+<script type="text/javascript">
+  class ModeToggle {
+    static get MODE_KEY() {
+      return 'mode';
+    }
+    static get MODE_ATTR() {
+      return 'data-mode';
+    }
+    static get DARK_MODE() {
+      return 'dark';
+    }
+    static get LIGHT_MODE() {
+      return 'light';
+    }
+    static get ID() {
+      return 'mode-toggle';
+    }
+
+    constructor() {
+      if (this.hasMode) {
+        if (this.isDarkMode) {
+          if (!this.isSysDarkPrefer) {
+            this.setDark();
+          }
+        } else {
+          if (this.isSysDarkPrefer) {
+            this.setLight();
+          }
+        }
+      }
+
+      let self = this;
+
+      /* always follow the system prefers */
+      this.sysDarkPrefers.addEventListener('change', () => {
+        if (self.hasMode) {
+          if (self.isDarkMode) {
+            if (!self.isSysDarkPrefer) {
+              self.setDark();
+            }
+          } else {
+            if (self.isSysDarkPrefer) {
+              self.setLight();
+            }
+          }
+
+          self.clearMode();
+        }
+
+        self.notify();
+      });
+    } /* constructor() */
+
+    get sysDarkPrefers() {
+      return window.matchMedia('(prefers-color-scheme: dark)');
+    }
+
+    get isSysDarkPrefer() {
+      return this.sysDarkPrefers.matches;
+    }
+
+    get isDarkMode() {
+      return this.mode === ModeToggle.DARK_MODE;
+    }
+
+    get isLightMode() {
+      return this.mode === ModeToggle.LIGHT_MODE;
+    }
+
+    get hasMode() {
+      return this.mode != null;
+    }
+
+    get mode() {
+      return sessionStorage.getItem(ModeToggle.MODE_KEY);
+    }
+
+    /* get the current mode on screen */
+    get modeStatus() {
+      if (this.isDarkMode || (!this.hasMode && this.isSysDarkPrefer)) {
+        return ModeToggle.DARK_MODE;
+      } else {
+        return ModeToggle.LIGHT_MODE;
+      }
+    }
+
+    setDark() {
+      document.documentElement.setAttribute(ModeToggle.MODE_ATTR, ModeToggle.DARK_MODE);
+      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.DARK_MODE);
+    }
+
+    setLight() {
+      document.documentElement.setAttribute(ModeToggle.MODE_ATTR, ModeToggle.LIGHT_MODE);
+      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE);
+    }
+
+    clearMode() {
+      document.documentElement.removeAttribute(ModeToggle.MODE_ATTR);
+      sessionStorage.removeItem(ModeToggle.MODE_KEY);
+    }
+
+    /* Notify another plugins that the theme mode has changed */
+    notify() {
+      window.postMessage(
+        {
+          direction: ModeToggle.ID,
+          message: this.modeStatus
+        },
+        '*'
+      );
+    }
+
+    flipMode() {
+      if (this.hasMode) {
+        if (this.isSysDarkPrefer) {
+          if (this.isLightMode) {
+            this.clearMode();
+          } else {
+            this.setLight();
+          }
+        } else {
+          if (this.isDarkMode) {
+            this.clearMode();
+          } else {
+            this.setDark();
+          }
+        }
+      } else {
+        if (this.isSysDarkPrefer) {
+          this.setLight();
+        } else {
+          this.setDark();
+        }
+      }
+
+      this.notify();
+    } /* flipMode() */
+  } /* ModeToggle */
+
+  const modeToggle = new ModeToggle();
+</script>
 
   
 
@@ -198,11 +341,11 @@
       <!-- .nav-item -->
     
       <li class="nav-item">
-        <a href="/categories/" class="nav-link">
-          <i class="fa-fw fas fa-stream"></i>
+        <a href="/archives/" class="nav-link">
+          <i class="fa-fw fas fa-archive"></i>
           
 
-          <span>CATEGORIES</span>
+          <span>ARCHIVES</span>
         </a>
       </li>
       <!-- .nav-item -->
@@ -211,6 +354,14 @@
   <!-- ul.nav.flex-column -->
 
   <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
+    
+      <button class="mode-toggle btn" aria-label="Switch Mode">
+        <i class="fas fa-adjust"></i>
+      </button>
+
+      
+        <span class="icon-border"></span>
+      
     
 
     
@@ -334,7 +485,7 @@
         
           
             
-              <span>Curriculum Vitae</span>
+              <span>CV</span>
             
 
           
@@ -414,6 +565,83 @@
 
 
 
+  
+  
+
+  <!-- CDN URL -->
+  
+
+  <!-- Add image path -->
+  
+
+  
+    
+      
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+
+    
+
+    <!-- lazy-load images <https://github.com/aFarkas/lazysizes#readme> -->
+    
+    
+
+    <!-- add image placeholder -->
+    
+      
+    
+
+    <!-- Bypass the HTML-proofer test -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+      
+    
+
+    <!-- combine -->
+    
+
+  
+
+  
+
+
 
 <!-- Add header for code snippets -->
 
@@ -453,7 +681,7 @@
 
 
 
-<h1 data-toc-skip>Curriculum Vitae</h1>
+<h1 data-toc-skip>CV</h1>
 
 <!-- M added-start 240726 -->
 
@@ -575,6 +803,28 @@
   <p><a href="https://drive.google.com/file/d/1_bSF0ejDbCk5W9cCpFGq55S5pOp2uEm3/view?usp=drive_link">Click here to download my CV.</a> <br /> 
 (updated 240722)</p>
 
+<iframe src="https://drive.google.com/file/d/1z6oSZy1UmCWYm-R0B7Cm7u_DWJdqnFTz/preview" width="800" height="1000" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1D3cUQulw7VK-iFFrtCQomm96P4mf9SR1/preview" width="800" height="1000" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1z21XBAk47rmNiR6sJ35aQoWyn2reeO_h/preview" width="800" height="1000" allow="autoplay"></iframe>
+
+<!--
+![Jiyoon_Jeong-CV_1](https://drive.google.com/uc?id=1z6oSZy1UmCWYm-R0B7Cm7u_DWJdqnFTz)
+![Jiyoon_Jeong-CV_2](https://drive.google.com/uc?id=1D3cUQulw7VK-iFFrtCQomm96P4mf9SR1)
+![Jiyoon_Jeong-CV_3](https://drive.google.com/uc?id=1z21XBAk47rmNiR6sJ35aQoWyn2reeO_h)
+
+<a href="https://drive.google.com/uc?id=1z6oSZy1UmCWYm-R0B7Cm7u_DWJdqnFTz" class="popup img-link "><img data-src="https://drive.google.com/uc?id=1z6oSZy1UmCWYm-R0B7Cm7u_DWJdqnFTz" class="lazyload" data-proofer-ignore></a>
+-->
+
+<!-- Google Drive image share link (original)
+https://drive.google.com/file/d/1z6oSZy1UmCWYm-R0B7Cm7u_DWJdqnFTz/view?usp=sharing
+https://drive.google.com/file/d/1D3cUQulw7VK-iFFrtCQomm96P4mf9SR1/view?usp=sharing
+https://drive.google.com/file/d/1z21XBAk47rmNiR6sJ35aQoWyn2reeO_h/view?usp=sharing
+-->
+
+<!-- M added 240726 - to embed pdf, but didn't work
+<object data="../assets/pdf/Jiyoon_Jeong-CV_updated240719.pdf" width="1000" height="1000" type='application/pdf'/></object>
+-->
+
 </div>
 
 <div class="post-tail-wrapper text-muted">
@@ -620,7 +870,7 @@
     
       
       <a
-        href="https://twitter.com/intent/tweet?text=Curriculum%20Vitae%20-%20Jiyoon%20Jeong&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FCV%2F"
+        href="https://twitter.com/intent/tweet?text=CV%20-%20Jiyoon%20Jeong&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FCV%2F"
         data-bs-toggle="tooltip"
         data-bs-placement="top"
         title="Twitter"
@@ -633,7 +883,7 @@
     
       
       <a
-        href="https://www.facebook.com/sharer/sharer.php?title=Curriculum%20Vitae%20-%20Jiyoon%20Jeong&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FCV%2F"
+        href="https://www.facebook.com/sharer/sharer.php?title=CV%20-%20Jiyoon%20Jeong&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FCV%2F"
         data-bs-toggle="tooltip"
         data-bs-placement="top"
         title="Facebook"
@@ -646,7 +896,7 @@
     
       
       <a
-        href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FCV%2F&text=Curriculum%20Vitae%20-%20Jiyoon%20Jeong"
+        href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FCV%2F&text=CV%20-%20Jiyoon%20Jeong"
         data-bs-toggle="tooltip"
         data-bs-placement="top"
         title="Telegram"
@@ -725,7 +975,7 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/CV/">Curriculum Vitae</a>
+          <a href="/posts/CV/">CV</a>
         </li>
       
         

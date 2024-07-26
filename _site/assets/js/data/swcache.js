@@ -19,7 +19,7 @@ const resource = [
     
         '/contact/',
     
-        '/categories/',
+        '/archives/',
     
 
     /* --- Favicons & compressed JS --- */
@@ -68,8 +68,6 @@ const allowedDomains = [
 
     'localhost:4000',
 
-    
-        'github.com',
     
 
     'fonts.gstatic.com',

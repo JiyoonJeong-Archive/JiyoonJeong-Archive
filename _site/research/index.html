@@ -16,8 +16,6 @@
 <!-- `site.alt_lang` can specify a language different from the UI -->
 <html lang="en" 
   
-    data-mode="light"
-  
 >
   <!-- The Head -->
 
@@ -47,12 +45,12 @@
 <meta property="og:url" content="http://localhost:4000/research/" />
 <meta property="og:site_name" content="Jiyoon Jeong" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-07-26T17:59:06+09:00" />
+<meta property="article:published_time" content="2024-07-26T20:40:02+09:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Research" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-07-26T17:59:06+09:00","datePublished":"2024-07-26T17:59:06+09:00","description":"Publications","headline":"Research","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/research/"},"url":"http://localhost:4000/research/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-07-26T20:40:02+09:00","datePublished":"2024-07-26T20:40:02+09:00","description":"Publications","headline":"Research","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/research/"},"url":"http://localhost:4000/research/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -116,6 +114,151 @@
   
 
   <!-- JavaScript -->
+
+  
+    <!-- Switch the mode between dark and light. -->
+
+<script type="text/javascript">
+  class ModeToggle {
+    static get MODE_KEY() {
+      return 'mode';
+    }
+    static get MODE_ATTR() {
+      return 'data-mode';
+    }
+    static get DARK_MODE() {
+      return 'dark';
+    }
+    static get LIGHT_MODE() {
+      return 'light';
+    }
+    static get ID() {
+      return 'mode-toggle';
+    }
+
+    constructor() {
+      if (this.hasMode) {
+        if (this.isDarkMode) {
+          if (!this.isSysDarkPrefer) {
+            this.setDark();
+          }
+        } else {
+          if (this.isSysDarkPrefer) {
+            this.setLight();
+          }
+        }
+      }
+
+      let self = this;
+
+      /* always follow the system prefers */
+      this.sysDarkPrefers.addEventListener('change', () => {
+        if (self.hasMode) {
+          if (self.isDarkMode) {
+            if (!self.isSysDarkPrefer) {
+              self.setDark();
+            }
+          } else {
+            if (self.isSysDarkPrefer) {
+              self.setLight();
+            }
+          }
+
+          self.clearMode();
+        }
+
+        self.notify();
+      });
+    } /* constructor() */
+
+    get sysDarkPrefers() {
+      return window.matchMedia('(prefers-color-scheme: dark)');
+    }
+
+    get isSysDarkPrefer() {
+      return this.sysDarkPrefers.matches;
+    }
+
+    get isDarkMode() {
+      return this.mode === ModeToggle.DARK_MODE;
+    }
+
+    get isLightMode() {
+      return this.mode === ModeToggle.LIGHT_MODE;
+    }
+
+    get hasMode() {
+      return this.mode != null;
+    }
+
+    get mode() {
+      return sessionStorage.getItem(ModeToggle.MODE_KEY);
+    }
+
+    /* get the current mode on screen */
+    get modeStatus() {
+      if (this.isDarkMode || (!this.hasMode && this.isSysDarkPrefer)) {
+        return ModeToggle.DARK_MODE;
+      } else {
+        return ModeToggle.LIGHT_MODE;
+      }
+    }
+
+    setDark() {
+      document.documentElement.setAttribute(ModeToggle.MODE_ATTR, ModeToggle.DARK_MODE);
+      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.DARK_MODE);
+    }
+
+    setLight() {
+      document.documentElement.setAttribute(ModeToggle.MODE_ATTR, ModeToggle.LIGHT_MODE);
+      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE);
+    }
+
+    clearMode() {
+      document.documentElement.removeAttribute(ModeToggle.MODE_ATTR);
+      sessionStorage.removeItem(ModeToggle.MODE_KEY);
+    }
+
+    /* Notify another plugins that the theme mode has changed */
+    notify() {
+      window.postMessage(
+        {
+          direction: ModeToggle.ID,
+          message: this.modeStatus
+        },
+        '*'
+      );
+    }
+
+    flipMode() {
+      if (this.hasMode) {
+        if (this.isSysDarkPrefer) {
+          if (this.isLightMode) {
+            this.clearMode();
+          } else {
+            this.setLight();
+          }
+        } else {
+          if (this.isDarkMode) {
+            this.clearMode();
+          } else {
+            this.setDark();
+          }
+        }
+      } else {
+        if (this.isSysDarkPrefer) {
+          this.setLight();
+        } else {
+          this.setDark();
+        }
+      }
+
+      this.notify();
+    } /* flipMode() */
+  } /* ModeToggle */
+
+  const modeToggle = new ModeToggle();
+</script>
 
   
 
@@ -194,11 +337,11 @@
       <!-- .nav-item -->
     
       <li class="nav-item">
-        <a href="/categories/" class="nav-link">
-          <i class="fa-fw fas fa-stream"></i>
+        <a href="/archives/" class="nav-link">
+          <i class="fa-fw fas fa-archive"></i>
           
 
-          <span>CATEGORIES</span>
+          <span>ARCHIVES</span>
         </a>
       </li>
       <!-- .nav-item -->
@@ -207,6 +350,14 @@
   <!-- ul.nav.flex-column -->
 
   <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
+    
+      <button class="mode-toggle btn" aria-label="Switch Mode">
+        <i class="fas fa-adjust"></i>
+      </button>
+
+      
+        <span class="icon-border"></span>
+      
     
 
     
@@ -767,74 +918,6 @@
     
 
   
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-
-    
-
-    <!-- lazy-load images <https://github.com/aFarkas/lazysizes#readme> -->
-    
-    
-
-    <!-- add image placeholder -->
-    
-      
-    
-
-    <!-- Bypass the HTML-proofer test -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-      
-    
-
-    <!-- combine -->
-    
-
-  
 
   
 
@@ -897,18 +980,6 @@
       
 
     
-      
-
-      
-      
-
-      
-      
-      
-
-      
-
-    
 
     
 
@@ -933,13 +1004,13 @@
 
 
 <!-- return -->
-<h1 id="publications">Publications</h1>
+<h2 id="publications"><span class="me-2">Publications</span><a href="#publications" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
 <p><strong>Jeong, J.</strong> &amp; Cho, Y. S. (2024). Object-based suppression in target search but not in distractor inhibition. <em>Attention, Perception, and Psychophysics</em>. https://doi.org/10.3758/s13414-024-02905-7 <a href="https://drive.google.com/file/d/1osSD4dHbjY_AJguS3jf26dGYkud1BsyM/view?usp=drive_link">PDF</a></p>
 
 <p>Kim, S., <strong>Jeong, J.</strong>, &amp; Cho, Y. S. (2024). Proactive suppression is evident even if the probe-recognition assumption is not evident: complementary relationship between proactive and reactive suppression. <em>Visual Cognition</em>, 1–14. https://doi.org/10.1080/13506285.2024.2343158 <a href="https://drive.google.com/file/d/1BUKrlDzQapZAcuxPywuio0yhnGSJus9M/view?usp=sharing">PDF</a></p>
 
-<h1 id="conference-presentations">Conference Presentations</h1>
+<h2 id="conference-presentations"><span class="me-2">Conference Presentations</span><a href="#conference-presentations" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
 <p><strong>Jeong, J.</strong> &amp; Cho Y.S. (Nov. 2023). Objects Modulate Attentional Suppression in Target Search but not in Distractor Inhibition.
 <em>Psychonomic Society, San Francisco, CA, USA.</em>
@@ -965,26 +1036,36 @@
 
 <p><br /></p>
 
-<h1 id="preview-of-my-research--projects">Preview of my Research &amp; Projects</h1>
+<h2 id="preview-of-my-research--projects"><span class="me-2">Preview of my Research &amp; Projects</span><a href="#preview-of-my-research--projects" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
-<h2 id="object-based-configuration-of-attentional-priority-map"><span class="me-2">Object-based Configuration of Attentional Priority Map</span><a href="#object-based-configuration-of-attentional-priority-map" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h3 data-toc-skip="" id="object-based-configuration-of-attentional-priority-map">Object-based Configuration of Attentional Priority Map</h3>
+
 <p><a href="https://i.ibb.co/9gNLh0d/Object-based-attentional-priority.png" class="popup img-link "><img data-src="https://i.ibb.co/9gNLh0d/Object-based-attentional-priority.png" alt="Object-based_attentional_priority" class="lazyload" data-proofer-ignore></a> <br />
 <a href="https://i.ibb.co/WFKfGsm/Object-based-attention-image2.png" class="popup img-link "><img data-src="https://i.ibb.co/WFKfGsm/Object-based-attention-image2.png" alt="Object-based_attention_image2" class="lazyload" data-proofer-ignore></a>
 <em>Images from Conference Presentation: Jeong, J. &amp; Cho Y.S. (Feb. 2023)</em></p>
 
-<h2 id="feature-based-attention--feature-map"><span class="me-2">Feature-based Attention &amp; Feature Map</span><a href="#feature-based-attention--feature-map" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p><br /></p>
+
+<h3 data-toc-skip="" id="feature-based-attention--feature-map">Feature-based Attention &amp; Feature Map</h3>
+
 <p><a href="https://i.ibb.co/s5yF5Rm/OPAM-Feature-based-attention.png" class="popup img-link "><img data-src="https://i.ibb.co/s5yF5Rm/OPAM-Feature-based-attention.png" alt="OPAM_Feature-based_attention" class="lazyload" data-proofer-ignore></a>
 <em>Poster from Conference Presentation: Jeong, J., Kim, S., &amp; Cho Y.S. (Nov. 2022)</em></p>
 
-<h2 id="neural-correlates-of-objectfeature-based-attention"><span class="me-2">Neural Correlates of Object/Feature-based Attention</span><a href="#neural-correlates-of-objectfeature-based-attention" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><a href="https://i.ibb.co/jh74Hmr/IC6-image.png" class="popup img-link "><img data-src="https://i.ibb.co/jh74Hmr/IC6-image.png" alt="IC6_image_resize" class="lazyload" data-proofer-ignore></a></p>
+<p><br /></p>
 
-<p><em>Image from my EEG Experiment Data (In progress)</em></p>
+<h3 data-toc-skip="" id="neural-correlates-of-objectfeature-based-attention">Neural Correlates of Object/Feature-based Attention</h3>
 
-<h2 id="machine-learning--deep-learning-models"><span class="me-2">Machine Learning &amp; Deep Learning Models</span><a href="#machine-learning--deep-learning-models" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>![IC6<em>image_resize](https://i.ibb.co/jh74Hmr/IC6-image.png)
+_Image from my EEG Experiment Data (In progress)</em></p>
+
+<p><br /></p>
+
+<h3 data-toc-skip="" id="machine-learning--deep-learning-models">Machine Learning &amp; Deep Learning Models</h3>
+
 <p><a href="https://i.ibb.co/GQXKfLH/NLP-project-abstract.png" class="popup img-link "><img data-src="https://i.ibb.co/GQXKfLH/NLP-project-abstract.png" alt="NLP_project_abstract" class="lazyload" data-proofer-ignore></a>
 <em>Report from Project: Natural Language Processing (Sentiment Analysis)</em> 
-<a href="https://github.com/JiyoonJeong-Archive/Project-Natural_Language_Processing">CODE</a></p>
+<a href="https://github.com/JiyoonJeong-Archive/Project-Natural_Language_Processing">CODE</a>  
+<a href="https://drive.google.com/file/d/1tQriq04B8Ka4Udg3OOoFhZNoBu7S3ALT/view?usp=sharing">Report(PDF)</a></p>
 
 <p><br /></p>
 
@@ -1041,7 +1122,7 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/CV/">Curriculum Vitae</a>
+          <a href="/posts/CV/">CV</a>
         </li>
       
         
