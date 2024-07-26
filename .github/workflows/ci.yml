@@ -21,7 +21,7 @@ jobs:
 
     strategy:
       matrix:
-        ruby: [2.7, 3]
+        ruby: [2.7, 3.1] #[2.7, 3] #M edited 240726
 
     steps:
       - name: Checkout
