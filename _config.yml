@@ -1,9 +1,9 @@
 # The Site Configuration
 
 # M: added from internet
-# include:
-# - _site
-# - _javascript
+include:
+  - _site
+  - _javascript
 
 # Import the theme
 theme: jekyll-theme-chirpy
@@ -53,13 +53,41 @@ social:
     - https://www.facebook.com/jeongjiyoon357
     - https://www.linkedin.com/in/jiyoon-jeong-b26132293/
 
-google_site_verification: # fill in to your verification string
+# google_site_verification: # fill in to your verification string #M commented 240726
+#M added_start 240726
+webmaster_verifications: 
+  google: # fill in your Google verification code
+  bing: # fill in your Bing verification code
+  alexa: # fill in your Alexa verification code
+  yandex: # fill in your Yandex verification code
+  baidu: # fill in your Baidu verification code
+  facebook: # fill in your Facebook verification code
+#M added_end
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
-google_analytics:
-  id: # fill in your Google Analytics ID
+# M Commented_start 240726
+#google_analytics:
+#  id: # fill in your Google Analytics ID # M commented_end
+# M added_start 240726
+
+# Web Analytics Settings
+analytics:
+  google:
+    id: # fill in your Google Analytics ID
+  goatcounter:
+    id: # fill in your GoatCounter ID
+  umami:
+    id: # fill in your Umami ID
+    domain: # fill in your Umami domain
+  matomo:
+    id: # fill in your Matomo ID
+    domain: # fill in your Matomo domain
+  cloudflare:
+    id: # fill in your Cloudflare Web Analytics token
+# M added_end
+
 
 # Prefer color scheme setting.
 #
@@ -72,14 +100,15 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: light # [light|dark]
+theme_mode: [light|dark] # light # 
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: "https://github.com/JiyoonJeong-Archive/JiyoonJeong-Archive.github.io" #"https://i.ibb.co/GQXKfLH/NLP-project-abstract.png" #Comment this so that image (local file) can be displayed
+# img_cdn: "https://github.com/JiyoonJeong-Archive/JiyoonJeong-Archive.github.io" #"https://i.ibb.co/GQXKfLH/NLP-project-abstract.png" #Comment this so that image (local file) can be displayed
+# 'cdn' 대신 'img_cdn' 도 써봄
 #"https://github.com/JiyoonJeong-Archive/JiyoonJeong-Archive.github.io/tree/main/assets/img" #원래: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
