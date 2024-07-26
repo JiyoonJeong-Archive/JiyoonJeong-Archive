@@ -46,16 +46,16 @@
   }
 }
 
-//M added-start 240726
+// M added-start 240726
 .post-desc {
   @extend %heading;
 
-  font-size: 1.25rem; //M edited 240726 ( original: 1.125rem; )
+  font-size: 1.25rem; // M edited 240726 ( original: 1.125rem; )
   line-height: 0.8; // M edited 240726 ( original: 1.6;)
-
   color: gray // #666666 // M added 
 }
-//M added-end
+
+// M added-end
 
 .post-meta { // M edited 240726 // original: h1 + .post-meta {
   span + span::before {
