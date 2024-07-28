@@ -32,7 +32,6 @@ tail_includes:
     {{ site.data.locales[lang].post.posted }}
     {% include datetime.html date=page.date tooltip=true lang=lang %}
   </span>
-
   <!-- lastmod date -->
   {% if page.last_modified_at and page.last_modified_at != page.date %}
   <span>
@@ -40,7 +39,6 @@ tail_includes:
     {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
   </span>
   {% endif %}
-
   <!-- M edited 240726 : commented (thumbnail image not shown within post) (put it as a normal image at the beginning of the post if needed)
   {% if page.image %}
     {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
@@ -64,11 +62,9 @@ tail_includes:
 
   <div class="d-flex justify-content-between">
     <!-- author(s) -->
-
     <span>
       <!-- FAILED! M commented 240728 : (author, read time not shown within post) --> 
       <!-- (because I (Jiyoon Jeong) am the only author always & word count function not necessary) -->
-         
       {% if page.author %}
         {% assign authors = page.author %}
       {% elsif page.authors %}
@@ -87,7 +83,6 @@ tail_includes:
         <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
       {% endif %}
       </em>
-      
     </span>
 
     <!-- M tried to edit 240728 : (failed to remove read time from post) -->
