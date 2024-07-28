@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Jiyoon Jeong</title>
   <subtitle>Homepage introducing my research interests and experiences.</subtitle>
-  <updated>2024-07-27T00:55:36+09:00</updated>
+  <updated>2024-07-28T09:54:09+09:00</updated>
   <author>
     <name>Jiyoon Jeong</name>
     <uri>http://localhost:4000/</uri>
@@ -49,14 +49,12 @@
       Hello, I’m Jiyoon.
 
 I am interested in how people effectively process incoming sensory information through attention.
-
 My research aims to study its neural mechanisms using EEG and artificial neural networks.
 
-I’m currently studying at University of Toronto as a Ph.D. candidate in Psychology. I received my B.S. and M.S. in Psychology and a B.E. in Computer Science from Korea University.
+I’m currently studying at University of Toronto as a Ph.D. candidate in Psychology. 
+I received my B.S. and M.S. in Psychology and a B.E. in Computer Science from Korea University.
 
-
-
-Go t...
+Email:...
     </summary>
   
 
@@ -106,7 +104,7 @@ Kim, S., Jeong, J., &amp;amp; Cho, Y. S. (2024). Proactive suppression is eviden
     <link href="http://localhost:4000/posts/Projects/" rel="alternate" type="text/html" title="Projects" />
     <published>2023-08-31T08:30:00+09:00</published>
   
-    <updated>2023-09-18T04:04:23+09:00</updated>
+    <updated>2024-07-28T10:48:04+09:00</updated>
   
     <id>http://localhost:4000/posts/Projects/</id>
     <content src="http://localhost:4000/posts/Projects/" />
@@ -137,8 +135,10 @@ Developed a cryptocurrency price prediction model through sentiment analysis of 
 
 
 
+
+
 Machine Learning
-Performed categorical predictions on demographic datasets with probabilistic, linear, and non-linear models, including Bayesian class...
+Performed categorical predictions on demographic datasets with probabilistic, linear, and non-linear models, including Bayesian cla...
     </summary>
   
 
@@ -183,6 +183,8 @@ Performed categorical predictions on demographic datasets with probabilistic, li
 
 
 
+
+
     </summary>
   
 
@@ -190,21 +192,21 @@ Performed categorical predictions on demographic datasets with probabilistic, li
 
   
   <entry>
-    <title>Contact</title>
-    <link href="http://localhost:4000/posts/Contact/" rel="alternate" type="text/html" title="Contact" />
-    <published>2023-08-31T05:06:00+09:00</published>
+    <title>Hello, World!</title>
+    <link href="http://localhost:4000/posts/Hello_World/" rel="alternate" type="text/html" title="Hello, World!" />
+    <published>2023-08-31T06:30:30+09:00</published>
   
-    <updated>2024-07-22T10:48:01+09:00</updated>
+    <updated>2024-07-28T10:48:10+09:00</updated>
   
-    <id>http://localhost:4000/posts/Contact/</id>
-    <content src="http://localhost:4000/posts/Contact/" />
+    <id>http://localhost:4000/posts/Hello_World/</id>
+    <content src="http://localhost:4000/posts/Hello_World/" />
     <author>
       <name>Jiyoon Jeong</name>
     </author>
 
   
     
-    <category term="Posts" />
+    <category term="News" />
     
   
 
@@ -216,17 +218,7 @@ Performed categorical predictions on demographic datasets with probabilistic, li
 
 
 
-      E-mail
-jy.jeong@mail.utoronto.ca
-
-Homepage
-https://jiyoonjeong-archive.github.io
-
-Facebook
-https://www.facebook.com/jeongjiyoon357/
-
-LinkedIn
-https://www.linkedin.com/in/jiyoon-jeong-b26132293/
+      My first post after successfully creating my homepage on Github.
 
     </summary>
   

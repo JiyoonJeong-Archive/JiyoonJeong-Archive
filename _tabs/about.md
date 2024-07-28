@@ -7,24 +7,27 @@ order: 1
 Hello, I'm Jiyoon. 
 
 I am interested in _how people effectively process incoming sensory information through attention_.
-
 My research aims to study its neural mechanisms using _EEG_ and _artificial neural networks_.
 
-I'm currently studying at University of Toronto as a Ph.D. candidate in Psychology. I received my B.S. and M.S. in Psychology and a B.E. in Computer Science from Korea University. 
+I'm currently studying at University of Toronto as a Ph.D. candidate in Psychology. 
+I received my B.S. and M.S. in Psychology and a B.E. in Computer Science from Korea University. 
 
+Email: [jy.jeong@mail.utoronto.ca](mailto:jy.jeong@mail.utoronto.ca)
+
+<br/>
+<hr/>
 <br/>
 
 Go to [Research](https://jiyoonjeong-archive.github.io/posts/Research) and [Projects](https://jiyoonjeong-archive.github.io/posts/Projects) for more information.
-
+{: .mb-1 }
 You can download my [CV](https://jiyoonjeong-archive.github.io/posts/CV) here.
-
-Email: [jy.jeong@mail.utoronto.ca](mailto:jy.jeong@mail.utoronto.ca) / See [Contact](https://jiyoonjeong-archive.github.io/posts/Contact) for more ways to connect!
-
-<br/>
+{: .mb-1 }
+For more contacts, click the social media logos at the bottom of the left sidebar.
 
 Thank you for visiting my homepage.
 
 <br/>
+<hr/>
 
 <!-- M added 240726
 AAAA 
@@ -59,6 +62,7 @@ AAAA
 {: .mt-2 .mb-0 }
 
 <br/>
+<hr/>
 
 ## Award & Honors
 
@@ -94,6 +98,7 @@ AAAA
 {: .mt-2 .mb-0 }
 
 <br/>
+<hr/>
 
 ## Specialized Skills
 

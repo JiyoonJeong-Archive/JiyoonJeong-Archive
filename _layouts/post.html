@@ -41,7 +41,7 @@ tail_includes:
   </span>
   {% endif %}
 
-  <!-- M edited 240726 : commented (thumbnail image not shown within post)
+  <!-- M edited 240726 : commented (thumbnail image not shown within post) (put it as a normal image at the beginning of the post if needed)
   {% if page.image %}
     {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
     {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
@@ -64,7 +64,11 @@ tail_includes:
 
   <div class="d-flex justify-content-between">
     <!-- author(s) -->
+
     <span>
+      <!-- M commented 240728 : (author, read time not shown within post) --> 
+      <!-- (because I (Jiyoon Jeong) am the only author always & word count function not necessary) -->
+      <!--      
       {% if page.author %}
         {% assign authors = page.author %}
       {% elsif page.authors %}
@@ -83,15 +87,16 @@ tail_includes:
         <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
       {% endif %}
       </em>
+      -->
     </span>
 
+    <!-- M tried to edit 240728 : (failed to remove read time from post) -->
     <div>
-      <!-- read time -->
+      <!-- read time --> 
       {% include read-time.html content=content prompt=true lang=lang %}
-    </div>
-
-</div> <!-- .d-flex -->
-
+    </div>  
+    
+  </div> <!-- .d-flex -->
 </div> <!-- .post-meta -->
 
 

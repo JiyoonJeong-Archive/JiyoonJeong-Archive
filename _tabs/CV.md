@@ -1,13 +1,10 @@
 ---
-#layout: archives
+layout: redirect #archives #M edited 240728
+permalink: /CV/ #M edited 240728
+redirect_to: /posts/CV/ #M edited 240728
 icon: fas fa-paperclip
 order: 3
 ---
-
-[Click here to download my CV.](https://drive.google.com/file/d/1_bSF0ejDbCk5W9cCpFGq55S5pOp2uEm3/view?usp=drive_link) <br/>
-(updated 240722)
-
-<iframe src="https://drive.google.com/file/d/1_bSF0ejDbCk5W9cCpFGq55S5pOp2uEm3/preview" width="800" height="1000" allow="autoplay"></iframe>
 
 <!--
 <iframe src="https://drive.google.com/file/d/1z6oSZy1UmCWYm-R0B7Cm7u_DWJdqnFTz/preview" width="800" height="1000" allow="autoplay"></iframe>

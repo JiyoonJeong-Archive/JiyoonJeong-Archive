@@ -14,7 +14,7 @@
 
     
     "snippet": "Hello, I’m Jiyoon.I am interested in how people effectively process incoming sensory information through attention.My research aims to study its neural mechanisms using EEG and artificial neural ne...",
-    "content": "Hello, I’m Jiyoon.I am interested in how people effectively process incoming sensory information through attention.My research aims to study its neural mechanisms using EEG and artificial neural networks.I’m currently studying at University of Toronto as a Ph.D. candidate in Psychology. I received my B.S. and M.S. in Psychology and a B.E. in Computer Science from Korea University.Go to Research and Projects for more information.You can download my CV here.Email: jy.jeong@mail.utoronto.ca / See Contact for more ways to connect!Thank you for visiting my homepage.Education University of TorontoPh.D. Candidate in Psychology   Sep. 2024 - PresentKorea UniversityMaster of Science in Behavioral &amp; Cognitive Neuroscience   Mar. 2022 – Aug. 2023 (early graduation)Bachelor of Science in Psychology   Mar. 2018 – Feb. 2022 (Great Honor)Bachelor of Engineering in Computer Science &amp; Engineering   Mar. 2018 – Feb. 2022 (Dual degree)Combined Bachelor’s ∙ Master’s Degree Program in Behavioral &amp; Cognitive NeuroscienceUniversity of British ColumbiaExchange student program   Sep. 2019 – Dec. 2019Award &amp; HonorsUniversity of TorontoConnaught International Scholarship   Fall 2024 – Winter 2028National Research Foundation of KoreaBrain Korea 21 Research Scholarship   Spring 2022 &amp; 2023 (two times)Brain Korea 21 Combined Bachelor’s ∙ Master’s Degree Program Scholarship   Spring 2023Korea UniversityResearch Assistant Scholarship   Fall 2022Administrative Assistant Scholarship   Spring 2022Great Honor   Winter 2021 GraduationSemester High Honors   Spring 2018 – Fall 2021 (five times)Korean Society for Cognitive &amp; Biological PsychologyBest Presentation Award   Feb. 2023Specialized SkillsPrograms &amp; Certificates (intermediate or higher levels)MATLAB (PsychToolbox, EEGLAB, etc.),  Python (PsychoPy, PyTorch, ScikitLearn, etc.), C, C++, OpenSesame (Mouse Tracking),  SPSS,  JASP, G-Power,  Excel,  PostgreSQL, AWS Certified Cloud PractitionerLanguagesEnglish (fluent), Korean (native), German (intermediate), Spanish ∙ Japanese (basic)"
+    "content": "Hello, I’m Jiyoon.I am interested in how people effectively process incoming sensory information through attention.My research aims to study its neural mechanisms using EEG and artificial neural networks.I’m currently studying at University of Toronto as a Ph.D. candidate in Psychology. I received my B.S. and M.S. in Psychology and a B.E. in Computer Science from Korea University.Email: jy.jeong@mail.utoronto.caGo to Research and Projects for more information.You can download my CV here.For more contacts, click the social media logos at the bottom of the left sidebar.Thank you for visiting my homepage.Education University of TorontoPh.D. Candidate in Psychology   Sep. 2024 - PresentKorea UniversityMaster of Science in Behavioral &amp; Cognitive Neuroscience   Mar. 2022 – Aug. 2023 (early graduation)Bachelor of Science in Psychology   Mar. 2018 – Feb. 2022 (Great Honor)Bachelor of Engineering in Computer Science &amp; Engineering   Mar. 2018 – Feb. 2022 (Dual degree)Combined Bachelor’s ∙ Master’s Degree Program in Behavioral &amp; Cognitive NeuroscienceUniversity of British ColumbiaExchange student program   Sep. 2019 – Dec. 2019Award &amp; HonorsUniversity of TorontoConnaught International Scholarship   Fall 2024 – Winter 2028National Research Foundation of KoreaBrain Korea 21 Research Scholarship   Spring 2022 &amp; 2023 (two times)Brain Korea 21 Combined Bachelor’s ∙ Master’s Degree Program Scholarship   Spring 2023Korea UniversityResearch Assistant Scholarship   Fall 2022Administrative Assistant Scholarship   Spring 2022Great Honor   Winter 2021 GraduationSemester High Honors   Spring 2018 – Fall 2021 (five times)Korean Society for Cognitive &amp; Biological PsychologyBest Presentation Award   Feb. 2023Specialized SkillsPrograms &amp; Certificates (intermediate or higher levels)MATLAB (PsychToolbox, EEGLAB, etc.),  Python (PsychoPy, PyTorch, ScikitLearn, etc.), C, C++, OpenSesame (Mouse Tracking),  SPSS,  JASP, G-Power,  Excel,  PostgreSQL, AWS Certified Cloud PractitionerLanguagesEnglish (fluent), Korean (native), German (intermediate), Spanish ∙ Japanese (basic)"
   },
   
   {
@@ -69,11 +69,11 @@
   },
   
   {
-    "title": "Contact",
-    "url": "/posts/Contact/",
-    "categories": "Posts",
+    "title": "Hello, World!",
+    "url": "/posts/Hello_World/",
+    "categories": "News",
     "tags": "",
-    "date": "2023-08-31 05:06:00 +0900",
+    "date": "2023-08-31 06:30:30 +0900",
     
 
 
@@ -81,8 +81,8 @@
 
 
     
-    "snippet": "E-mailjy.jeong@mail.utoronto.caHomepagehttps://jiyoonjeong-archive.github.ioFacebookhttps://www.facebook.com/jeongjiyoon357/LinkedInhttps://www.linkedin.com/in/jiyoon-jeong-b26132293/",
-    "content": "E-mailjy.jeong@mail.utoronto.caHomepagehttps://jiyoonjeong-archive.github.ioFacebookhttps://www.facebook.com/jeongjiyoon357/LinkedInhttps://www.linkedin.com/in/jiyoon-jeong-b26132293/"
+    "snippet": "My first post after successfully creating my homepage on Github.",
+    "content": "My first post after successfully creating my homepage on Github."
   }
   
 ]

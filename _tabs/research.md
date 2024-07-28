@@ -36,6 +36,8 @@ _Korean Psychological Association, Virtual._
 (View [key graphics](http://JiyoonJeong-Archive.github.io/posts/Projects/#attention--response-selection))
 
 <br/>
+<hr/>
+<br/>
 
 ## Preview of my Research & Projects
 

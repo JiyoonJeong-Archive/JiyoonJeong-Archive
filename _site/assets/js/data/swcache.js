@@ -17,8 +17,6 @@ const resource = [
     
         '/CV/',
     
-        '/contact/',
-    
         '/archives/',
     
         '/categories/',
