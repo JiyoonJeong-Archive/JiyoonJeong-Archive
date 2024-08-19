@@ -1,8 +1,13 @@
 ---
-#layout: archives
+layout: redirect #M edited 240819
+permalink: /research/
+redirect_to: /posts/research/ #M edited 240819
 icon: fas fa-file-alt
 order: 2
 ---
+
+<!-- All texts: made into comment 240819
+
 ## Publications
 
 **Jeong, J.** & Cho, Y. S. (2024). Object-based suppression in target search but not in distractor inhibition. _Attention, Perception, and Psychophysics_. https://doi.org/10.3758/s13414-024-02905-7 [PDF](https://drive.google.com/file/d/1osSD4dHbjY_AJguS3jf26dGYkud1BsyM/view?usp=drive_link)
@@ -79,3 +84,5 @@ _Report from Project: Natural Language Processing (Sentiment Analysis)_
 ![Machine_learning](https://i.ibb.co/h76FKwZ/Machine-learning.png)
 _Code/Graphics from Project: Machine learning (Categorical Prediction)_ 
 [CODE](https://github.com/JiyoonJeong-Archive/Projects-Machine_Learning)
+
+-->

@@ -1,15 +1,19 @@
 ---
-# the default layout is 'page'
+layout: redirect #M edited 240819 # the default layout is 'page'
+permalink: /about/
+redirect_to: /posts/about/ #M edited 240819
 icon: fas fa-info-circle
 order: 1
 #img_path: /posts/preview/
 ---
+
+<!-- All texts: made into comment 240819
 Hello, I'm Jiyoon. 
 
 I am interested in _how people effectively process incoming sensory information through attention_.
 My research aims to study its neural mechanisms using _EEG_ and _artificial neural networks_.
 
-I'm currently studying at University of Toronto as a Ph.D. candidate in Psychology. 
+I'm currently studying at University of Toronto as a Ph.D. student in Psychology. 
 I received my B.S. and M.S. in Psychology and a B.E. in Computer Science from Korea University. 
 
 Email: [jy.jeong@mail.utoronto.ca](mailto:jy.jeong@mail.utoronto.ca)
@@ -28,6 +32,7 @@ Thank you for visiting my homepage.
 
 <br/>
 <hr/>
+-->
 
 <!-- M added 240726
 AAAA 
@@ -35,13 +40,14 @@ AAAA
 &emsp; = space 4개, &ensp; = space 2개 
 -->
 
-## Education <!-- M edited 240726-->
+<!-- ## Education  M edited 240726-->
 <!-- original: # Education / for size comparision: ### Education -->
 
+<!-->
 ### University of Toronto
 {: data-toc-skip='' .mb-3}
 
-**Ph.D. Candidate in Psychology** &emsp; Sep. 2024 - Present
+**Ph.D. Student in Psychology** &emsp; Sep. 2024 - Present
 
 ### Korea University	
 {: data-toc-skip='' .mb-3}
@@ -113,3 +119,4 @@ MATLAB _(PsychToolbox, EEGLAB, etc.)_,  Python _(PsychoPy, PyTorch, ScikitLearn,
 
 English _(fluent)_, Korean _(native)_, German _(intermediate)_, Spanish ∙ Japanese _(basic)_
 {: .mt-2 .mb-0 }
+-->
