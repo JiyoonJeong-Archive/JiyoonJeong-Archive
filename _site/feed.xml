@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Jiyoon Jeong</title>
   <subtitle>Homepage introducing my research interests and experiences.</subtitle>
-  <updated>2024-07-28T10:15:44+09:00</updated>
+  <updated>2024-08-20T04:28:05+09:00</updated>
   <author>
     <name>Jiyoon Jeong</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/About/" rel="alternate" type="text/html" title="About" />
     <published>2023-08-31T09:06:00+09:00</published>
   
-    <updated>2024-07-22T10:48:05+09:00</updated>
+    <updated>2024-08-19T23:48:05+09:00</updated>
   
     <id>http://localhost:4000/posts/About/</id>
     <content src="http://localhost:4000/posts/About/" />
@@ -51,10 +51,10 @@
 I am interested in how people effectively process incoming sensory information through attention.
 My research aims to study its neural mechanisms using EEG and artificial neural networks.
 
-I’m currently studying at University of Toronto as a Ph.D. candidate in Psychology. 
+I’m currently studying at University of Toronto as a Ph.D. student in Psychology. 
 I received my B.S. and M.S. in Psychology and a B.E. in Computer Science from Korea University.
 
-Email:...
+Email: j...
     </summary>
   
 
@@ -150,7 +150,7 @@ Performed categorical predictions on demographic datasets with probabilistic, li
     <link href="http://localhost:4000/posts/CV/" rel="alternate" type="text/html" title="CV" />
     <published>2023-08-31T07:06:00+09:00</published>
   
-    <updated>2024-07-22T10:48:03+09:00</updated>
+    <updated>2024-08-19T23:48:03+09:00</updated>
   
     <id>http://localhost:4000/posts/CV/</id>
     <content src="http://localhost:4000/posts/CV/" />
@@ -173,7 +173,7 @@ Performed categorical predictions on demographic datasets with probabilistic, li
 
 
       Click here to download my CV.  
-(updated 240722)
+(updated 240819)
 
 
 
@@ -184,41 +184,6 @@ Performed categorical predictions on demographic datasets with probabilistic, li
 
 
 
-
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Hello, World!</title>
-    <link href="http://localhost:4000/posts/Hello_World/" rel="alternate" type="text/html" title="Hello, World!" />
-    <published>2023-08-31T06:30:30+09:00</published>
-  
-    <updated>2024-07-28T10:48:10+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Hello_World/</id>
-    <content src="http://localhost:4000/posts/Hello_World/" />
-    <author>
-      <name>Jiyoon Jeong</name>
-    </author>
-
-  
-    
-    <category term="News" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      My first post after successfully creating my homepage on Github.
 
     </summary>
   
