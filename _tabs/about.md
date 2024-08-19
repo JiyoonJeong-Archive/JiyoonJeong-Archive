@@ -1,7 +1,7 @@
 ---
 layout: redirect #M edited 240819 # the default layout is 'page'
-permalink: /about/
-redirect_to: /posts/about/ #M edited 240819
+permalink: /About/
+redirect_to: /posts/About/ #M edited 240819
 icon: fas fa-info-circle
 order: 1
 #img_path: /posts/preview/

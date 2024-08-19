@@ -1,7 +1,7 @@
 ---
 layout: redirect #M edited 240819
-permalink: /research/
-redirect_to: /posts/research/ #M edited 240819
+permalink: /Research/
+redirect_to: /posts/Research/ #M edited 240819
 icon: fas fa-file-alt
 order: 2
 ---
