@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Jiyoon Jeong</title>
   <subtitle>Homepage introducing my research interests and experiences.</subtitle>
-  <updated>2024-08-20T04:44:50+09:00</updated>
+  <updated>2024-09-03T13:08:53+09:00</updated>
   <author>
     <name>Jiyoon Jeong</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/About/" rel="alternate" type="text/html" title="About" />
     <published>2023-08-31T09:06:00+09:00</published>
   
-    <updated>2024-08-19T23:48:05+09:00</updated>
+    <updated>2024-09-02T23:48:05+09:00</updated>
   
     <id>http://localhost:4000/posts/About/</id>
     <content src="http://localhost:4000/posts/About/" />
@@ -46,7 +46,12 @@
 
 
 
-      Hello, I’m Jiyoon.
+      
+
+
+
+
+Hello, I’m Jiyoon.
 
 I am interested in how people effectively process incoming sensory information through attention.
 My research aims to study its neural mechanisms using EEG and artificial neural networks.
@@ -54,7 +59,7 @@ My research aims to study its neural mechanisms using EEG and artificial neural 
 I’m currently studying at University of Toronto as a Ph.D. student in Psychology. 
 I received my B.S. and M.S. in Psychology and a B.E. in Computer Science from Korea University.
 
-Email: j...
+Ema...
     </summary>
   
 

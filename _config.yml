@@ -112,8 +112,9 @@ theme_mode: #[light|dark] # light #
 #"https://github.com/JiyoonJeong-Archive/JiyoonJeong-Archive.github.io/tree/main/assets/img" #원래: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://i.ibb.co/bmzfBWk/profile3-2-1.jpg" #"https://i.ibb.co/N1sQSsG/profile3.jpg" #"https://i.ibb.co/sbcWtYJ/profile-grad.png" 
-#url('/assets/img/avatar/avatar.png') #"/assets/img/avatar/profile_grad.png"
+avatar: '/assets/img/avatar/profile3-2-1.jpg' #edited 240902
+#service unavailable: "https://i.ibb.co/bmzfBWk/profile3-2-1.jpg" #"https://i.ibb.co/N1sQSsG/profile3.jpg" #"https://i.ibb.co/sbcWtYJ/profile-grad.png" 
+#url('/assets/img/avatar/avatar.png') #
 
 # boolean type, the global switch for TOC in posts.
 toc: true
